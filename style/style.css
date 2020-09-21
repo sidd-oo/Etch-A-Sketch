@@ -1,0 +1,62 @@
+html{
+    background-image: url("../images/background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    align-items: center;
+}
+
+h1{
+    margin: 0px auto 10px auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: bolder;
+    color: darkblue;
+}
+
+button{
+    margin: -10px 12px 10px 12px;
+    padding: 8px 15px;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: #3b197a;
+    color: white;
+    border: none;
+    box-shadow: 0 5px rgb(172, 172, 218);
+  }
+  
+  button:hover {
+      background-color: #293266;
+      transform: scale(1.1);
+    }
+  
+  button:active{
+      background-color: #36bdee;
+      box-shadow: 0 3px rgb(91, 218, 235);
+      transform: translateY(4px);
+  }
+
+#grid{
+    box-sizing: border-box;
+    height: 465px;
+    width: 465px;
+    background-color: whitesmoke;
+    border: slateblue 10px solid;
+    border-radius: 10px;
+    margin : 0px auto 0px auto;
+}
+
+footer{
+    background-color: slateblue;
+    color:rgb(8, 8, 53);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+a{
+    color: black;
+    text-decoration:none;
+}
